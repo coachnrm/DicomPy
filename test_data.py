@@ -52,12 +52,12 @@ def process_image_file(file_path):
 # Example usage
 username = 'home'
 # For DICOM file
-dicom_path = os.path.join('/Users', username, 'Desktop', '10.dcm')
+dicom_path = os.path.join('/Users', username, 'Desktop', 'converted_image.dcm')
 # For JPG file
 jpg_path = os.path.join('/Users', username, 'Desktop', '10.jpg')
 
 # Process the file (change the path as needed)
-file_path = jpg_path  # or dicom_path
+file_path = dicom_path  # or dicom_path
 
 pixel_array = process_image_file(file_path)
 

@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from pydicom import dcmread
 
 username = 'home'
-path = os.path.join('/Users', username, 'Desktop', '10.dcm')
+path = os.path.join('/Users', username, 'Desktop', 'converted_image.dcm')
 
 try:
     x = dcmread(path)
