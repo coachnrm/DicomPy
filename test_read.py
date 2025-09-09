@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 from pydicom import dcmread
 
 username = 'home'
-path = os.path.join('/Users', username, 'Desktop', 'xxxxx.DCM')
+path = os.path.join('/Users', username, 'Desktop', '10.dcm')
 # path = 'Users/home/Desktop/xxxx.DCM'
 # ให้เอา file (.dcm) ไปไว้ที่หน้า desktop 
 
